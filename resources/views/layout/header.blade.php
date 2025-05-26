@@ -24,4 +24,11 @@
     <link rel="stylesheet" href="{{asset('assets/css/slick.c')}}">
     <link rel="stylesheet" href="{{asset('assets/css/nice-select.c')}}">
     <link rel="stylesheet" href="{{asset('/assets/css/style.css')}}">
+    <style>
+        .uniform-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+    </style>
 </head>

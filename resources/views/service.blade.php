@@ -24,6 +24,15 @@
     <link rel="stylesheet" href="{{asset('assets/css/slick.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/nice-select.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+
+    
+    <style>
+        .uniform-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
     <!-- ? Preloader Start -->
@@ -71,7 +80,7 @@
                     </div>
                 </div> 
                 <div class="header-right d-none d-lg-block">
-                    <a href="#" class="header-btn1"><img src="assets/img/icon/call.png" alt=""> (08) 728 256 266</a>
+                    <a href="#" class="header-btn1"><img src="assets/img/icon/call.png" alt=""> 0768641275</a>
                     <a href="#" class="header-btn2">Make an Appointment</a>
                 </div>
                 <!-- Mobile Menu -->
@@ -99,7 +108,7 @@
         </div>
         <!-- Hero End -->
         <!--? Services Area Start -->
-        <section class="services-area pt-top border-bottom pb-20 mb-60">
+         <section class="services-area pt-top border-bottom pb-20 mb-60">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-7 col-lg-8">
@@ -117,7 +126,7 @@
                             </div>
                             <div class="cat-cap">
                                 <h5><a href="services.html">We collect your clothes</a></h5>
-                                <p>The automated process starts as soon as your clothes go into the machine. The outcome is gleaming clothes!</p>
+                                <p>Our team picks up your dirty laundry right from your doorstep at a time convenient for you. No hassle, no queues – just seamless service from start to finish.</p>
                             </div>
                         </div>
                     </div>
@@ -128,7 +137,7 @@
                             </div>
                             <div class="cat-cap">
                                 <h5><a href="services.html">Wash your clothes</a></h5>
-                                <p>The automated process starts as soon as your clothes go into the machine. The outcome is gleaming clothes!</p>
+                                <p>Your clothes are treated to a thorough, professional clean using modern machines and premium detergents – giving them a fresh, soft feel and a lasting fragrance.</p>
                             </div>
                         </div>
                     </div>
@@ -139,7 +148,7 @@
                             </div>
                             <div class="cat-cap">
                                 <h5><a href="services.html">Get delivery</a></h5>
-                                <p>The automated process starts as soon as your clothes go into the machine. The outcome is gleaming clothes!</p>
+                                <p>Once cleaned, your laundry is neatly folded, carefully packaged, and delivered back to you – fresh, crisp, and ready to wear.</p>
                             </div>
                         </div>
                     </div>
@@ -165,10 +174,10 @@
             <!-- Service 1 -->
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm border-0 text-center">
-                    <img src="assets/img/gallery/offers1.png" class="card-img-top" alt="Cloth Laundry">
+                    <img src="assets/img/gallery/laundry.png" class="card-img-top uniform-img" alt="Cloth Laundry">
                     <div class="card-body">
                         <img src="assets/img/icon/offers-icon1.png" alt="" class="mb-3" style="height: 40px;">
-                        <h5 class="card-title">Laundry and Dry cleaning</h5>
+                        <h5 class="card-title fw-bold text-dark" style="font-size: 2.25rem;">Laundry and Dry cleaning</h5>
                         <p class="card-text text-muted">We offer fast, efficient, and affordable laundry and dry cleaning services using modern machines.</p>
                     </div>
                 </div>
@@ -177,10 +186,10 @@
             <!-- Service 2 -->
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm border-0 text-center">
-                    <img src="assets/img/gallery/carpet.png" class="card-img-top" alt="Cloth Ironing">
+                    <img src="assets/img/gallery/carpet.png" class="card-img-top uniform-img" alt="Cloth Ironing">
                     <div class="card-body">
                         <img src="assets/img/icon/offers-icon2.png" alt="" class="mb-3" style="height: 40px;">
-                        <h5 class="card-title">Carpet Cleaning</h5>
+                        <h5 class="card-title fw-bold text-dark" style="font-size: 2.25rem;">Carpet Cleaning</h5>
                         <p class="card-text text-muted">We provide deep, thorough, and affordable carpet cleaning services that leave your carpets fresh and spotless.</p>
                     </div>
                 </div>
@@ -189,10 +198,10 @@
             <!-- Service 3 -->
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm border-0 text-center">
-                    <img src="assets/img/gallery/sofacleaning.jpg" class="card-img-top" alt="Dry Cleaning">
+                    <img src="assets/img/gallery/sofacleaning.jpg" class="card-img-top uniform-img" alt="Dry Cleaning">
                     <div class="card-body">
                         <img src="assets/img/icon/offers-icon3.png" alt="" class="mb-3" style="height: 40px;">
-                        <h5 class="card-title">Sofa Cleaning</h5>
+                        <h5 class="card-title fw-bold text-dark" style="font-size: 2.25rem;">Sofa Cleaning</h5>
                         <p class="card-text text-muted">Delicate dry-cleaning services to preserve the quality of your garments.</p>
                     </div>
                 </div>
@@ -201,10 +210,10 @@
             <!-- Service 4 -->
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm border-0 text-center">
-                    <img src="assets/img/gallery/matresscleaning.jpg" class="card-img-top" alt="Shoe Care">
+                    <img src="assets/img/gallery/matresscleaning.jpg" class="card-img-top uniform-img" alt="Shoe Care">
                     <div class="card-body">
                         <img src="assets/img/icon/shoe-icon.png" alt="" class="mb-3" style="height: 40px;">
-                        <h5 class="card-title">Matress Cleaning</h5>
+                        <h5 class="card-title fw-bold text-dark" style="font-size: 2.25rem;">Matress Cleaning</h5>
                         <p class="card-text text-muted">Restore the shine and comfort of your footwear with our professional shoe care services.</p>
                     </div>
                 </div>
@@ -213,10 +222,10 @@
             <!-- Service 5 -->
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm border-0 text-center">
-                    <img src="assets/img/gallery/curtain-cleaning.jpg" class="card-img-top" alt="Curtain Cleaning">
+                    <img src="assets/img/gallery/fumigation.png" class="card-img-top uniform-img" alt="Curtain Cleaning">
                     <div class="card-body">
                         <img src="assets/img/icon/curtain-icon.png" alt="" class="mb-3" style="height: 40px;">
-                        <h5 class="card-title">Curtain Cleaning</h5>
+                        <h5 class="card-title fw-bold text-dark" style="font-size: 2.25rem;">Fumigation & PestControl</h5>
                         <p class="card-text text-muted">We take care of your drapes and curtains, leaving them fresh, clean, and allergen-free.</p>
                     </div>
                 </div>
@@ -225,10 +234,10 @@
             <!-- Service 6 -->
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm border-0 text-center">
-                    <img src="assets/img/gallery/bedding.jpg" class="card-img-top" alt="Bedding & Duvets">
+                    <img src="assets/img/gallery/ironing.png" class="card-img-top uniform-img" alt="Bedding & Duvets">
                     <div class="card-body">
-                        <img src="assets/img/icon/bed-icon.png" alt="" class="mb-3" style="height: 40px;">
-                        <h5 class="card-title">Bedding & Duvets</h5>
+                        <img src="assets/img/icon/ironing.png" alt="" class="mb-3" style="height: 40px;">
+                        <h5 class="card-title fw-bold text-dark" style="font-size: 2.25rem;">Clothes Ironing</h5>
                         <p class="card-text text-muted">Enjoy fresh, hygienic sleep with our duvet and bed linen washing service.</p>
                     </div>
                 </div>
@@ -250,84 +259,16 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-5">
-                            <a href="#" class="btn wantToWork-btn"><img src="assets/img/icon/call2.png" alt=""> Learn More</a>
+                            <a href="{{ url('/services') }}" class="btn wantToWork-btn"><img src="assets/img/icon/call2.png" alt=""> Learn More</a>
                         </div>
                     </div>
                 </div>
             </section>
         </section>
         <!-- Want To work End -->
-        <!--? Testimonials_start -->
-        <section class="testimonials-area testimonials-overly  position-relative">
-            <div class="container">
-                <div class="border-bottom section-padding40 ">
-                    <div class="row">
-                        <div class="col-xl-12 ">
-                            <!-- testmonial-image -->
-                            <div class="testmonial-nav text-center">
-                                <div class="testmonial-thumb">
-                                    <img src="assets/img/gallery/testimonila1.png" alt="">
-                                </div>
-                                <div class="testmonial-thumb">
-                                    <img src="assets/img/gallery/testimonila2.png" alt="">
-                                </div>
-                                <div class="testmonial-thumb">
-                                    <img src="assets/img/gallery/testimonila3.png" alt="">
-                                </div>
-                                <div class="testmonial-thumb">
-                                    <img src="assets/img/gallery/testimonila2.png" alt="">
-                                </div>
-                            </div>
-                            <div class="testmonial-item-active text-center">
-                                <!-- testimonial-single-items -->
-                                <div class="testmonial-item ">
-                                    <p class="pera">The automated process starts as soon as your clothes go into the<br> machine. The outcome is gleaming clothes!</p>
-                                    <div class="rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <p> - Rupaya</p>
-                                </div>
-                                <!-- testimonial-single-items -->
-                                <div class="testmonial-item ">
-                                    <p class="pera">The automated process starts as soon as your clothes go into the<br> machine. The outcome is gleaming clothes!</p>
-                                    <div class="rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <p> - Rupaya</p>
-                                </div>
-                                <!-- testimonial-single-items -->
-                                <div class="testmonial-item ">
-                                    <p class="pera">The automated process starts as soon as your clothes go into the<br> machine. The outcome is gleaming clothes!</p>
-                                    <div class="rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <p> - Rupaya</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Testimonials_end -->
+        
 
-        <!--?  Map Area start  -->
-        <div class="Map-area">
-            <img src="assets/img/gallery/Map.png" alt="" class="w-100">
-        </div>
-        <!-- Map Area End -->
+        
     </main>
     <footer>
         <!-- Footer Start-->
@@ -339,11 +280,11 @@
                        <div class="single-footer-caption mb-30">
                         <!-- logo -->
                         <div class="footer-logo mb-35">
-                            <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                            <a href="{{ url('/') }}"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
                         </div>
                         <div class="footer-tittle">
                             <div class="footer-pera">
-                                <p>Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                                <p>We deliver professional laundry and dry cleaning with care, ensuring your clothes look and feel brand new.</p>
                             </div>
                         </div>
                         <!-- social -->
@@ -360,11 +301,11 @@
                     <div class="footer-tittle">
                         <h4>Services </h4>
                         <ul>
-                            <li><a href="#">- Dry Cleaning</a></li>
-                            <li><a href="#">- Dry Clean</a></li>
-                            <li><a href="#">- Ironing Services</a></li>
-                            <li><a href="#">- Laundry Service London</a></li>
-                            <li><a href="#">- Laundry App</a></li>
+                            <li><a href="#">- Laundry and Dry cleaning</a></li>
+                            <li><a href="#">- Carpet Cleaning</a></li>
+                            <li><a href="#">- Sofa Cleaning</a></li>
+                            <li><a href="#">- Matress Cleaning</a></li>
+                            <li><a href="#">- Fumigation and PestControl</a></li>
                         </ul>
                     </div>
                 </div>
@@ -374,9 +315,9 @@
                     <div class="footer-tittle">
                         <h4>Get in touch</h4>
                         <ul>
-                            <li class="number"><a href="#">(90) 898 789-8957</a></li>
+                            <li class="number"><a href="#">0768641275</a></li>
                             <li><a href="#">laundry@567.com</a></li>
-                            <li><a href="#">789/A, Green road NYC-9089</a></li>
+                            <li><a href="#">Peris and Langas, Eldoret, Kenya</a></li>
                         </ul>
                     </div>
                 </div>
@@ -392,7 +333,7 @@
                <div class="col-xl-12 ">
                    <div class="footer-copy-right text-center">
                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Website is made with <i class="fa fa-heart" aria-hidden="true"></i> by allanmurimi96@gmail.com
                           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                       </div>
                   </div>
