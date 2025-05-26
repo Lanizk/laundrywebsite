@@ -19,20 +19,27 @@
                 <!-- Logo -->
                 <div class="header-left">
                     <div class="logo">
-                        <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                        <a href="{{ url('/') }}"><img src="assets/img/logo/logo.png" alt=""></a>
                     </div>
                     <div class="menu-wrapper  d-flex align-items-center">
                         <!-- Main-menu -->
                         <div class="main-menu d-none d-lg-block">
-                            <nav> 
-                                <ul id="navigation">                                                                                          
-                                    <li class="active"><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="services.html">Services</a></li>
-
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-                            </nav>
+                          <nav>
+    <ul id="navigation">
+        <li class="{{ request()->is('/') ? 'active' : '' }}">
+            <a href="{{ url('/') }}">Home</a>
+        </li>
+        <li class="{{ request()->is('about') ? 'active' : '' }}">
+            <a href="{{ url('/about') }}">About</a>
+        </li>
+        <li class="{{ request()->is('services') ? 'active' : '' }}">
+            <a href="{{ url('/services') }}">Services</a>
+        </li>
+        <li class="{{ request()->is('contact') ? 'active' : '' }}">
+            <a href="{{ url('/contact') }}">Contact</a>
+        </li>
+    </ul>
+</nav>
                         </div>
                     </div>
                 </div> 
@@ -275,7 +282,7 @@
         <!-- About Area End -->
         <!--?  Map Area start  -->
         <div class="Map-area">
-            <img src="assets/img/gallery/Map.png" alt="" class="w-100">
+            <img src="assets/img/post/post_11.png" alt="" class="w-100">
         </div>
         <!-- Map Area End -->
     </main>

@@ -45,12 +45,12 @@
                 <!-- Logo -->
                 <div class="header-left">
                     <div class="logo">
-                        <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                        <a href="{{ url('/') }}"><img src="assets/img/logo/logo.png" alt=""></a>
                     </div>
                     <div class="menu-wrapper  d-flex align-items-center">
                         <!-- Main-menu -->
                         <div class="main-menu d-none d-lg-block">
-                            <nav>
+                           <nav>
     <ul id="navigation">
         <li class="{{ request()->is('/') ? 'active' : '' }}">
             <a href="{{ url('/') }}">Home</a>
@@ -66,6 +66,7 @@
         </li>
     </ul>
 </nav>
+                            </nav>
                         </div>
                     </div>
                 </div> 
@@ -89,7 +90,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap hero-cap2">
-                                <h2>About us</h2>
+                                <h2>Our Services</h2>
                             </div>
                         </div>
                     </div>
@@ -97,36 +98,8 @@
             </div>
         </div>
         <!-- Hero End -->
-        <!--? About Area  -->
-        <section class="about-area2 section-padding40">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12">
-                        <!-- about-img -->
-                        <div class="about-img ">
-                            <img src="assets/img/gallery/about1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="about-caption mb-50">
-                            <!-- Section Tittle -->
-                            <div class="section-tittle mb-25">
-                                <h2>About company</h2>
-                            </div>
-                            <p class="mb-20">
-                                The automated process starts as soon as your clothes go into the machine. The outcome is gleaming clothes!
-                            </p>
-                            <p class="mb-30">The automated process starts as soon as your clothes go into the machine. The outcome is gleaming clothes!</p>
-
-                            <a href="about.html" class="btn">About Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About Area End -->
         <!--? Services Area Start -->
-        <section class="services-area border-bottom pb-20 mb-60">
+        <section class="services-area pt-top border-bottom pb-20 mb-60">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-7 col-lg-8">
@@ -174,6 +147,97 @@
             </div>
         </section>
         <!-- Services End -->
+        <!--? Offer-services Start  -->
+       
+        <section class="offer-services pb-5">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-xl-8 col-lg-9 text-center">
+                <div class="section-tittle">
+                    <span class="element text-primary">Our Services</span>
+                    <h2 class="fw-bold">What We Offer</h2>
+                    <p class="text-muted">From laundry to ironing, we provide a full range of professional cleaning services tailored to your lifestyle.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <!-- Service 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <img src="assets/img/gallery/offers1.png" class="card-img-top" alt="Cloth Laundry">
+                    <div class="card-body">
+                        <img src="assets/img/icon/offers-icon1.png" alt="" class="mb-3" style="height: 40px;">
+                        <h5 class="card-title">Laundry and Dry cleaning</h5>
+                        <p class="card-text text-muted">We offer fast, efficient, and affordable laundry and dry cleaning services using modern machines.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <img src="assets/img/gallery/carpet.png" class="card-img-top" alt="Cloth Ironing">
+                    <div class="card-body">
+                        <img src="assets/img/icon/offers-icon2.png" alt="" class="mb-3" style="height: 40px;">
+                        <h5 class="card-title">Carpet Cleaning</h5>
+                        <p class="card-text text-muted">We provide deep, thorough, and affordable carpet cleaning services that leave your carpets fresh and spotless.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <img src="assets/img/gallery/sofacleaning.jpg" class="card-img-top" alt="Dry Cleaning">
+                    <div class="card-body">
+                        <img src="assets/img/icon/offers-icon3.png" alt="" class="mb-3" style="height: 40px;">
+                        <h5 class="card-title">Sofa Cleaning</h5>
+                        <p class="card-text text-muted">Delicate dry-cleaning services to preserve the quality of your garments.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <img src="assets/img/gallery/matresscleaning.jpg" class="card-img-top" alt="Shoe Care">
+                    <div class="card-body">
+                        <img src="assets/img/icon/shoe-icon.png" alt="" class="mb-3" style="height: 40px;">
+                        <h5 class="card-title">Matress Cleaning</h5>
+                        <p class="card-text text-muted">Restore the shine and comfort of your footwear with our professional shoe care services.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <img src="assets/img/gallery/curtain-cleaning.jpg" class="card-img-top" alt="Curtain Cleaning">
+                    <div class="card-body">
+                        <img src="assets/img/icon/curtain-icon.png" alt="" class="mb-3" style="height: 40px;">
+                        <h5 class="card-title">Curtain Cleaning</h5>
+                        <p class="card-text text-muted">We take care of your drapes and curtains, leaving them fresh, clean, and allergen-free.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <img src="assets/img/gallery/bedding.jpg" class="card-img-top" alt="Bedding & Duvets">
+                    <div class="card-body">
+                        <img src="assets/img/icon/bed-icon.png" alt="" class="mb-3" style="height: 40px;">
+                        <h5 class="card-title">Bedding & Duvets</h5>
+                        <p class="card-text text-muted">Enjoy fresh, hygienic sleep with our duvet and bed linen washing service.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Offer-services End  -->
         <!--? Want To work -->
         <section class="container">
             <section class="wantToWork-area" data-background="assets/img/gallery/section_bg01.png">
@@ -258,53 +322,7 @@
             </div>
         </section>
         <!-- Testimonials_end -->
-        <!--? Company achievement Start -->
-        <section class="services-area section-padding40 fix">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-7 col-lg-8">
-                        <div class="section-tittle text-center mb-55">
-                            <span class="element">Fun Fact</span>
-                            <h2>Company achievement</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat text-center">
-                            <div class="cat-cap">
-                                <span>4000</span>
-                                <p>The automated process starts as soon as your clothes go into the machine.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat text-center">
-                            <div class="cat-cap">
-                                <span>300+</span>
-                                <p>The automated process starts as soon as your clothes go into the machine.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat text-center">
-                            <div class="cat-cap">
-                                <span>95%</span>
-                                <p>The automated process starts as soon as your clothes go into the machine.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="bottom-bt">
-                                <img src="assets/img/gallery/company-bg.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Company achievement End -->
+
         <!--?  Map Area start  -->
         <div class="Map-area">
             <img src="assets/img/gallery/Map.png" alt="" class="w-100">
@@ -400,7 +418,7 @@
 <script src="{{asset('./assets/js/jquery.slicknav.min.js')}}"></script>
 
 <!-- Jquery Slick , Owl-Carousel Plugins -->
-<script src="{{asset('./assets/js/owl.carousel.min.js')}}"></script>
+<script src="{{asset('/assets/js/owl.carousel.min.js')}}"></script>
 <script src="{{asset('./assets/js/slick.min.js')}}"></script>
 <!-- One Page, Animated-HeadLin -->
 <script src="{{asset('./assets/js/wow.min.js')}}"></script>
