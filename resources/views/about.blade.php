@@ -97,7 +97,7 @@
                 </div>
             </div>
             <!-- Hero End -->
-<section class="services-area  border-bottom pb-20 ">
+<section class="services-area pt-top border-bottom pb-20 mb-60 ">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-7 col-lg-8">
@@ -145,7 +145,7 @@
                 </div>
             </section>
             <!--? About Area  -->
-            <section class="about-area2 pb-bottom mt-30">
+            <section class="about-area2  mt-30">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-12">
