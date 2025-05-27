@@ -3,13 +3,14 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <title>Laundryl | Teamplate</title>
+        <title>CleanPoint Laundry</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="manifest" href="site.webmanifest" />
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
 
         <!-- CSS here -->
+         <link rel="stylesheet" href="{{asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}" />
         <link rel="stylesheet" href="{{asset('assets/css/owl.carousel.min.css')}}" />
         <link rel="stylesheet" href="{{asset('assets/css/slicknav.css')}}" />
@@ -45,7 +46,7 @@
                     <!-- Logo -->
                     <div class="header-left">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" alt="" style="height: 90px;"/></a>
+                            <a href="{{ url('/') }}"><img src="assets/img/logo/logo.png" alt="" style="height: 90px;"/></a>
                         </div>
                         <div class="menu-wrapper d-flex align-items-center">
                             <!-- Main-menu -->
@@ -261,11 +262,11 @@
                                         </div>
                                     </div>
                                     <!-- social -->
-                                    <div class="footer-social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </div>
+                                   <div class="footer-social">
+                                    <a href="https://www.tiktok.com/@cleaningsolutions001?_t=ZM-8wgVFZVijvJ&_r=1"><i class="fab fa-tiktok"></i></a>
+                                    <a href="https://www.facebook.com/share/p/19Hboydezy/"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/cleanpointcleaningsolutions?utm_source=qr&igsh=aDZ2a2dwdzZkMXJl"><i class="fab fa-instagram"></i></a>
+                                   </div>
                                 </div>
                             </div>
                         </div>

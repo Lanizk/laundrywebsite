@@ -6,7 +6,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loder.png" alt="" />
+                    <img src="assets/img/logo/logo3.png" alt="" />
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
                                 <div class="hero__caption">
                                     <h1 data-animation="fadeInLeft" data-delay="0.2s">Quality laundry service in Eldoret</h1>
                                     <p data-animation="fadeInLeft" data-delay="0.4s">FRESH. FAST. CLEAN</p>
-                                    <a href="#" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.7s">Explore Services</a>
+                                    <a href="{{ url('/services') }}" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.7s">Explore Services</a>
                                 </div>
                             </div>
                         </div>

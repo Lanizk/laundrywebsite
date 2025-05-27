@@ -3,13 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Laundryl | Teamplate</title>
+    <title>CleanPoint Laundry</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
     <!-- CSS here -->
+     <link rel="stylesheet" href="{{asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css')}}">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/slicknav.css">
@@ -32,7 +33,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loder.png" alt="">
+                    <img src="assets/img/logo/logo3.png" alt="">
                 </div>
             </div>
         </div>
@@ -45,7 +46,7 @@
                 <!-- Logo -->
                 <div class="header-left">
                     <div class="logo">
-                        <a href="{{ url('/') }}"><img src="assets/img/logo/logo.png" alt="" style="height: 90px;></a>
+                        <a href="{{ url('/') }}"><img src="assets/img/logo/logo.png" alt="" style="height: 90px;"></a>
                     </div>
                     <div class="menu-wrapper  d-flex align-items-center">
                         <!-- Main-menu -->
@@ -70,7 +71,7 @@
                     </div>
                 </div> 
                 <div class="header-right d-none d-lg-block">
-                    <a href="#" class="header-btn1"><img src="assets/img/icon/call.png" alt=""> (08) 728 256 266</a>
+                    <a href="#" class="header-btn1"><img src="assets/img/icon/call.png" alt=""> 0768641275</a>
                     <a href="#" class="header-btn2">Make an Appointment</a>
                 </div>
                 <!-- Mobile Menu -->
@@ -83,7 +84,7 @@
     </header>
     <main>
         <!--? Hero Start -->
-        <div class="slider-area2 section-bg2 hero-overly" data-background="assets/img/hero/hero2.png">
+        <div class="slider-area2 section-bg2 hero-overly" data-background="assets/img/hero/hero4.png">
             <div class="slider-height2 d-flex align-items-center">
                 <div class="container">
                     <div class="row">
@@ -138,21 +139,21 @@
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-home"></i></span>
                             <div class="media-body">
-                                <h3>Buttonwood, California.</h3>
-                                <p>Rosemead, CA 91770</p>
+                                <h3>Eldoret, Kenya.</h3>
+                                <p>Langas & Peris, Eldoret</p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                             <div class="media-body">
-                                <h3>+1 253 565 2365</h3>
+                                <h3>0768641275</h3>
                                 <p>Mon to Fri 9am to 6pm</p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-email"></i></span>
                             <div class="media-body">
-                                <h3>support@colorlib.com</h3>
+                                <h3>cleanpointlaundry@gmail.com</h3>
                                 <p>Send us your query anytime!</p>
                             </div>
                         </div>
@@ -176,19 +177,20 @@
                        <div class="single-footer-caption mb-30">
                         <!-- logo -->
                         <div class="footer-logo mb-35">
-                            <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt="" style="height: 90px;></a>
+                            <a href="/"><img src="assets/img/logo/logo2_footer.png" alt="" style="height: 90px;"></a>
                         </div>
                         <div class="footer-tittle">
                             <div class="footer-pera">
-                                <p>Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                                <p>
+We deliver professional laundry and dry cleaning with care, ensuring your clothes look and feel brand new.</p>
                             </div>
                         </div>
                         <!-- social -->
                         <div class="footer-social">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                        </div>
+                                    <a href="https://www.tiktok.com/@cleaningsolutions001?_t=ZM-8wgVFZVijvJ&_r=1"><i class="fab fa-tiktok"></i></a>
+                                    <a href="https://www.facebook.com/share/p/19Hboydezy/"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/cleanpointcleaningsolutions?utm_source=qr&igsh=aDZ2a2dwdzZkMXJl"><i class="fab fa-instagram"></i></a>
+                                </div>
                     </div>
                 </div>
             </div>
@@ -196,13 +198,13 @@
                 <div class="single-footer-caption mb-50">
                     <div class="footer-tittle">
                         <h4>Services </h4>
-                        <ul>
-                            <li><a href="#">- Dry Cleaning</a></li>
-                            <li><a href="#">- Dry Clean</a></li>
-                            <li><a href="#">- Ironing Services</a></li>
-                            <li><a href="#">- Laundry Service London</a></li>
-                            <li><a href="#">- Laundry App</a></li>
-                        </ul>
+                       <ul>
+                                        <li><a href="#">- Laundry and Dry cleaning</a></li>
+                                        <li><a href="#">- Carpet Cleaning</a></li>
+                                        <li><a href="#">- Sofa Cleaning</a></li>
+                                        <li><a href="#">- Matress Cleaning</a></li>
+                                        <li><a href="#">- Fumigation and PestControl</a></li>
+                                    </ul>
                     </div>
                 </div>
             </div>
@@ -211,9 +213,9 @@
                     <div class="footer-tittle">
                         <h4>Get in touch</h4>
                         <ul>
-                            <li class="number"><a href="#">(90) 898 789-8957</a></li>
+                            <li class="number"><a href="#">0768641275</a></li>
                             <li><a href="#">laundry@567.com</a></li>
-                            <li><a href="#">789/A, Green road NYC-9089</a></li>
+                            <li><a href="#">Peris & Langas, Eldoret</a></li>
                         </ul>
                     </div>
                 </div>
