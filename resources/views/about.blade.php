@@ -32,7 +32,7 @@
                 <div class="preloader-inner position-relative">
                     <div class="preloader-circle"></div>
                     <div class="preloader-img pere-text">
-                        <img src="assets/img/logo/loder.png" alt="" />
+                        <img src="assets/img/logo/logo3.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                     <!-- Logo -->
                     <div class="header-left">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" alt="" /></a>
+                            <a href="index.html"><img src="assets/img/logo/logo.png" alt="" style="height: 90px;"/></a>
                         </div>
                         <div class="menu-wrapper d-flex align-items-center">
                             <!-- Main-menu -->
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                     <div class="header-right d-none d-lg-block">
-                        <a href="#" class="header-btn1"><img src="assets/img/icon/call.png" alt="" /> (08) 728 256 266</a>
+                        <a href="#" class="header-btn1"><img src="assets/img/icon/call.png" alt="" />0768641275</a>
                         <a href="#" class="header-btn2">Make an Appointment</a>
                     </div>
                     <!-- Mobile Menu -->
@@ -83,7 +83,7 @@
         </header>
         <main>
             <!--? Hero Start -->
-            <div class="slider-area2 section-bg2 hero-overly" data-background="assets/img/hero/hero2.png">
+            <div class="slider-area2 section-bg2 hero-overly" data-background="assets/img/hero/hero3.jpg">
                 <div class="slider-height2 d-flex align-items-center">
                     <div class="container">
                         <div class="row">
@@ -97,38 +97,7 @@
                 </div>
             </div>
             <!-- Hero End -->
-
-            <!--? About Area  -->
-            <section class="about-area2 pb-bottom mt-30">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 col-md-12">
-                            <!-- about-img -->
-                            <div class="about-img">
-                                <img src="assets/img/gallery/about1.png" class="img-fluid w-100" style="height: 700px;" alt="" />
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12">
-                            <div class="about-caption mb-50">
-                                <!-- Section Tittle -->
-                                <div class="section-tittle mb-25">
-                                    <h2>About company</h2>
-                                </div>
-                                <p class="mb-20">
-                                    At Cleanpoint Laundry, we specialize in providing top-notch laundry and dry cleaning services designed for your convenience. With a commitment to hygiene, quality, and timely delivery, we use modern machines
-                                and eco-friendly detergents to ensure your clothes come back spotless and fresh.
-                                </p>
-                                <p class="mb-30">Whether it’s daily laundry, delicate garments, or bulky items like duvets and carpets, we handle everything with care. Our team is dedicated to making laundry stress-free so you can focus on what matters
-                                most.</p>
-
-                                <a href="{{ url('/about') }}" class="btn">About Us</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Services End -->
-            <section class="services-area  border-bottom pb-20 ">
+<section class="services-area  border-bottom pb-20 ">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-7 col-lg-8">
@@ -175,6 +144,37 @@
                     </div>
                 </div>
             </section>
+            <!--? About Area  -->
+            <section class="about-area2 pb-bottom mt-30">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12">
+                            <!-- about-img -->
+                            <div class="about-img">
+                                <img src="assets/img/gallery/about1.png" class="img-fluid w-100" style="height: 700px;" alt="" />
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="about-caption mb-50">
+                                <!-- Section Tittle -->
+                                <div class="section-tittle mb-25">
+                                    <h2>About company</h2>
+                                </div>
+                                <p class="mb-20">
+                                    At Cleanpoint Laundry, we specialize in providing top-notch laundry and dry cleaning services designed for your convenience. With a commitment to hygiene, quality, and timely delivery, we use modern machines
+                                and eco-friendly detergents to ensure your clothes come back spotless and fresh.
+                                </p>
+                                <p class="mb-30">Whether it’s daily laundry, delicate garments, or bulky items like duvets and carpets, we handle everything with care. Our team is dedicated to making laundry stress-free so you can focus on what matters
+                                most.</p>
+
+                                <a href="{{ url('/about') }}" class="btn">About Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Services End -->
+            
             <!--? About Area  -->
             <section class="services-area section-padding40 fix">
                 <div class="container">
@@ -253,7 +253,7 @@
                                 <div class="single-footer-caption mb-30">
                                     <!-- logo -->
                                     <div class="footer-logo mb-35">
-                                        <a href="{{ url('/') }}"><img src="assets/img/logo/logo2_footer.png" alt="" /></a>
+                                        <a href="{{ url('/') }}"><img src="assets/img/logo/logo2_footer.png" alt="" style="height: 90px;" /></a>
                                     </div>
                                     <div class="footer-tittle">
                                         <div class="footer-pera">

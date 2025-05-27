@@ -19,7 +19,7 @@
                 <!-- Logo -->
                 <div class="header-left">
                     <div class="logo">
-                        <a href="{{ url('/') }}"><img src="assets/img/logo/logo.png" alt="" /></a>
+                        <a href="{{ url('/') }}"><img src="assets/img/logo/logo.png" alt="" style="height: 90px;" /></a>
                     </div>
                     <div class="menu-wrapper d-flex align-items-center">
                         <!-- Main-menu -->
@@ -331,7 +331,7 @@
                             <div class="single-footer-caption mb-30">
                                 <!-- logo -->
                                 <div class="footer-logo mb-35">
-                                    <a href="{{ url('/') }}"><img src="assets/img/logo/logo2_footer.png" alt="" /></a>
+                                    <a href="{{ url('/') }}"><img src="assets/img/logo/logo2_footer.png" style="height: 90px;" alt="" /></a>
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
@@ -340,9 +340,9 @@
                                 </div>
                                 <!-- social -->
                                 <div class="footer-social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="https://www.tiktok.com/@cleaningsolutions001?_t=ZM-8wgVFZVijvJ&_r=1"><i class="fab fa-tiktok"></i></a>
+                                    <a href="https://www.facebook.com/share/p/19Hboydezy/"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/cleanpointcleaningsolutions?utm_source=qr&igsh=aDZ2a2dwdzZkMXJl"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>

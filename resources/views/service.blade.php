@@ -41,7 +41,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loder.png" alt="">
+                    <img src="assets/img/logo/loder.png" alt="" style="height: 90px;>
                 </div>
             </div>
         </div>
@@ -280,7 +280,7 @@
                        <div class="single-footer-caption mb-30">
                         <!-- logo -->
                         <div class="footer-logo mb-35">
-                            <a href="{{ url('/') }}"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                            <a href="{{ url('/') }}"><img src="assets/img/logo/logo2_footer.png" alt="" style="height: 90px;></a>
                         </div>
                         <div class="footer-tittle">
                             <div class="footer-pera">

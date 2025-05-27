@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/animated-headline.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}">
+    <!-- Font Awesome 6.5 CDN -->
+<link rel="stylesheet" href="{{asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css')}}">
+
     <link rel="stylesheet" href="{{asset('assets/css/fontawesome-all.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/themify-icons.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/slick.c')}}">

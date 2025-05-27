@@ -45,7 +45,7 @@
                 <!-- Logo -->
                 <div class="header-left">
                     <div class="logo">
-                        <a href="{{ url('/') }}"><img src="assets/img/logo/logo.png" alt=""></a>
+                        <a href="{{ url('/') }}"><img src="assets/img/logo/logo.png" alt="" style="height: 90px;></a>
                     </div>
                     <div class="menu-wrapper  d-flex align-items-center">
                         <!-- Main-menu -->
@@ -176,7 +176,7 @@
                        <div class="single-footer-caption mb-30">
                         <!-- logo -->
                         <div class="footer-logo mb-35">
-                            <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                            <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt="" style="height: 90px;></a>
                         </div>
                         <div class="footer-tittle">
                             <div class="footer-pera">
