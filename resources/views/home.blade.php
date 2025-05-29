@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div class="header-right d-none d-lg-block">
-                    <a href="#" class="header-btn1"><img src="assets/img/icon/call.png" alt="" /> 0768641275</a>
+                    <a href="#" class="header-btn1"><img src="assets/img/icon/call.png" alt="" /> 0700866400</a>
                     <a href="#" class="header-btn2">Make an Appointment</a>
                 </div>
                 <!-- Mobile Menu -->
@@ -343,6 +343,8 @@
                                     <a href="https://www.tiktok.com/@cleaningsolutions001?_t=ZM-8wgVFZVijvJ&_r=1"><i class="fab fa-tiktok"></i></a>
                                     <a href="https://www.facebook.com/share/p/19Hboydezy/"><i class="fab fa-facebook-f"></i></a>
                                     <a href="https://www.instagram.com/cleanpointcleaningsolutions?utm_source=qr&igsh=aDZ2a2dwdzZkMXJl"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://wa.me/254700866400" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+
                                 </div>
                             </div>
                         </div>
@@ -366,8 +368,8 @@
                             <div class="footer-tittle">
                                 <h4>Get in touch</h4>
                                 <ul>
-                                    <li class="number"><a href="#">0768641275</a></li>
-                                    <li><a href="#">laundry@567.com</a></li>
+                                    <li class="number"><a href="#">0768641275/ 0700866400 </a></li>
+                                    <li><a href="#">cleanpointcleaningsolutionsltd@gmail.com</a></li>
                                     <li><a href="#">Peris and Langas, Eldoret, Kenya</a></li>
                                 </ul>
                             </div>

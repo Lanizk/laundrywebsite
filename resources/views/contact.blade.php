@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>CleanPoint Laundry</title>
+    <title>Cleanpoint Cleaning Solutions</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -71,7 +71,7 @@
                     </div>
                 </div> 
                 <div class="header-right d-none d-lg-block">
-                    <a href="#" class="header-btn1"><img src="assets/img/icon/call.png" alt=""> 0768641275</a>
+                    <a href="#" class="header-btn1"><img src="assets/img/icon/call.png" alt=""> 0700866400</a>
                     <a href="#" class="header-btn2">Make an Appointment</a>
                 </div>
                 <!-- Mobile Menu -->
@@ -147,13 +147,13 @@
                             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                             <div class="media-body">
                                 <h3>0768641275</h3>
-                                <p>Mon to Fri 9am to 6pm</p>
+                                <p>Mon to Mon 8am to 10pm</p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-email"></i></span>
                             <div class="media-body">
-                                <h3>cleanpointlaundry@gmail.com</h3>
+                                <h3>cleanpointcleaningsolutionsltd@gmail.com</h3>
                                 <p>Send us your query anytime!</p>
                             </div>
                         </div>
@@ -167,62 +167,86 @@
             <img src="assets/img/post/post_11.png" alt="" class="w-100">
         </div>
     </main>
-    <footer>
+<footer>
         <!-- Footer Start-->
         <div class="footer-area footer-padding">
             <div class="container">
                 <div class="row d-flex justify-content-between">
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                     <div class="single-footer-caption mb-50">
-                       <div class="single-footer-caption mb-30">
-                        <!-- logo -->
-                        <div class="footer-logo mb-35">
-                            <a href="/"><img src="assets/img/logo/logo2_footer.png" alt="" style="height: 90px;"></a>
-                        </div>
-                        <div class="footer-tittle">
-                            <div class="footer-pera">
-                                <p>
-We deliver professional laundry and dry cleaning with care, ensuring your clothes look and feel brand new.</p>
-                            </div>
-                        </div>
-                        <!-- social -->
-                        <div class="footer-social">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <!-- logo -->
+                                <div class="footer-logo mb-35">
+                                    <a href="{{ url('/') }}"><img src="assets/img/logo/logo2_footer.png" style="height: 90px;" alt="" /></a>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p>We deliver professional laundry and dry cleaning with care, ensuring your clothes look and feel brand new.</p>
+                                    </div>
+                                </div>
+                                <!-- social -->
+                                <div class="footer-social">
                                     <a href="https://www.tiktok.com/@cleaningsolutions001?_t=ZM-8wgVFZVijvJ&_r=1"><i class="fab fa-tiktok"></i></a>
                                     <a href="https://www.facebook.com/share/p/19Hboydezy/"><i class="fab fa-facebook-f"></i></a>
                                     <a href="https://www.instagram.com/cleanpointcleaningsolutions?utm_source=qr&igsh=aDZ2a2dwdzZkMXJl"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://wa.me/254700866400" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+
                                 </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
-                <div class="single-footer-caption mb-50">
-                    <div class="footer-tittle">
-                        <h4>Services </h4>
-                       <ul>
-                                        <li><a href="#">- Laundry and Dry cleaning</a></li>
-                                        <li><a href="#">- Carpet Cleaning</a></li>
-                                        <li><a href="#">- Sofa Cleaning</a></li>
-                                        <li><a href="#">- Matress Cleaning</a></li>
-                                        <li><a href="#">- Fumigation and PestControl</a></li>
-                                    </ul>
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Services</h4>
+                                <ul>
+                                    <li><a href="#">- Laundry and Dry cleaning</a></li>
+                                    <li><a href="#">- Carpet Cleaning</a></li>
+                                    <li><a href="#">- Sofa Cleaning</a></li>
+                                    <li><a href="#">- Matress Cleaning</a></li>
+                                    <li><a href="#">- Fumigation and PestControl</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
-                <div class="single-footer-caption mb-50">
-                    <div class="footer-tittle">
-                        <h4>Get in touch</h4>
-                        <ul>
-                            <li class="number"><a href="#">0768641275</a></li>
-                            <li><a href="#">laundry@567.com</a></li>
-                            <li><a href="#">Peris & Langas, Eldoret</a></li>
-                        </ul>
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Get in touch</h4>
+                                <ul>
+                                    <li class="number"><a href="#">0768641275/ 0700866400 </a></li>
+                                    <li><a href="#">cleanpointcleaningsolutionsltd@gmail.com</a></li>
+                                    <li><a href="#">Peris and Langas, Eldoret, Kenya</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+        <!-- footer-bottom area -->
+        <div class="footer-bottom-area section-bg2" data-background="assets/img/gallery/footer-bg.png">
+            <div class="container">
+                <div class="footer-border">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-xl-12">
+                            <div class="footer-copy-right text-center">
+                                <p>
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                    Copyright &copy;
+                                    <script>
+                                        document.write(new Date().getFullYear());
+                                    </script>
+                                    All rights reserved | This Website is made with <i class="fa fa-heart" aria-hidden="true"></i> by allanmurimi96@gmail.com
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 <!-- JS here -->
 
