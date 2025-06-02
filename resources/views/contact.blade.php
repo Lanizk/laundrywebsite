@@ -147,6 +147,7 @@
                             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                             <div class="media-body">
                                 <h3>0768641275</h3>
+                                <h3>0768641275</h3>
                                 <p>Mon to Mon 8am to 10pm</p>
                             </div>
                         </div>
