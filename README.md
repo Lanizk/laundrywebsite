@@ -27,7 +27,7 @@ It’s designed to be simple, intuitive, and visually appealing.
 
 ## ⚡ Technology Stack
 - **Frontend:** HTML5, CSS3, JavaScript
-- **Styling:** Tailwind CSS / Bootstrap (optional)
+- **Styling:**  Bootstrap 
 - **Images & Icons:** Static assets included in the project
 - No backend required
 
